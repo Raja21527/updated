@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            R-P-S
+        </title>
+       <link rel="stylesheet" href="10rps.css">
+    </head>
+    <body> 
+        <p class="company">
+           KING KUMAR GAMINGS 
+        </p>
+            <p class="title">
+                Rock Paper Scissors
+            </p>
+            <button onclick="
+
+             playGame('rock');
+              pickComputerMove();
+            " class="move-icon">
+            <img src="rock-emoji.png" class="rock">
+            </button>
+
+            <button  onclick="
+            
+            playGame('paper');
+            pickComputerMove();
+
+            " class="move-icon"><img src='paper-emoji.png' class="rock" ></button>
+            <button onclick=" 
+            
+            playGame('scissors');
+            pickComputerMove();
+
+            " class="move-icon"> <img src="scissors-emoji.png" class="rock" ></button>
+
+            <p class="result"></p>
+            <p class="moves"></p>
+            <p class="win"></p>
+
+            <button class="reset" onclick="
+                scores.win=0,
+                scores.lose=0,
+                scores.tie=0,
+                localStorage.removeItem('scores'),
+                updateScoreElement(),
+                document.querySelector('.result').innerHTML='';
+                document.querySelector('.moves').innerHTML='';
+            ">
+                Reset Score
+            </button>
+        <script src="10rps.js"></script>
+
+    </body>
+</html>

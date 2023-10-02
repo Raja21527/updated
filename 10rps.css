@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(25, 25, 25);
+}
+.title{
+    font-size: 36px;
+    font-family: Arial;
+    color: white;
+    font-weight: bold;
+}
+.rock{
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+}
+.move-icon{
+       background-color: transparent;
+       border: 3px solid white;
+       width: 120px;
+       height: 120px;
+       border-radius: 60px;
+       margin-right: 5px;
+       cursor: pointer;
+       color: white;
+}
+.result{
+    font-family: Arial;
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+}
+.move{
+    color: white;
+}
+.win{
+    color: white;
+}
+.one{
+    color: white;
+}
+.move-ion{
+    background-color: transparent;
+       border: 3px solid white;
+       width: 50px;
+       height: 50px;
+       border-radius: 60px;
+       padding: 20px;
+       margin-right: 5px;
+       cursor: pointer;
+       color: white;
+}
+.reset{
+    padding:10px;
+    font-family: arial;
+    cursor: pointer;
+}
+.company{
+    background-color: white;
+    color: rgb(195, 19, 19);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
